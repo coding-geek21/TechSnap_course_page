@@ -689,6 +689,16 @@ body {
 	font-size: 0.9rem;
 }
 
+@media(min-width:560px){
+	.web-view{
+		display:block;
+	}
+
+	.mobile-view{
+		display:none;
+	}
+}
+
 @media (max-width: 560px) {
 	.faq_title h2 {
 		font-size: 1.5rem;
@@ -701,6 +711,12 @@ body {
 	}
 	.faq_item_number p {
 		font-size: 1.5rem;
+	}
+	.web-view{
+		display:none;
+	}
+	.mobile-view{
+		display:block;
 	}
 }
 
